@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/projects.css" />
+    <link rel="stylesheet" href="./css/style_2.css">
+</head>
+
+<body>
+    <nav>
+        <button type="button" id="toggle-btn">
+            <i class="fa fa-bars"></i>
+        </button>
+        <span>Menú</span>
+        <ul class="sidebar__menu">
+            <li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li>
+            <li><a href="info.html"><i class="fa fa-suitcase"></i>Información</a></li>
+            <li><a href="hobbies.html"><i class="fa fa-user"></i>Hobbies</a></li>
+            <li><a href="cryptography.html"><i class="fa-sharp fa-solid fa-clock"></i>Cryptography</a></li>         
+            <li><a href="contact.html"><i class="fa fa-phone"></i>Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1 class="section-heading">Mis proyectos</h1>
+        </header>
+    </div>
+    <div class="container">
+        <div class="tab-container">
+            <div class="tab-filter-container">
+                <li class="filter-btn active" data-tab="web-design">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    APPerro
+                </li>
+                <li class="filter-btn" data-tab="web-development">
+                    <ion-icon name="logo-nodejs"></ion-icon>
+                    ESCOMcalma
+                </li>
+                <li class="filter-btn" data-tab="ux-design">
+                    <ion-icon name="diamond-outline"></ion-icon>
+                    Xochilapia
+                </li>
+                <li class="filter-btn" data-tab="app-development">
+                    <ion-icon name="logo-google-playstore"></ion-icon>
+                    iFind
+                </li>
+            </div>
+            <div class="tab-filter-item-container">
+                <div class="tab-item web-design select_tab">
+                    <div class="tab-content-left">
+                        <img src="images/APPerro_HD-modified.png" alt="web design" class="tab-img" />
+                    </div>
+                    <div class="tab-content-right">
+                        <h1 class="tab-heading">APPerro</h1>
+                        <p class="paragraph">
+                            Es un proyecto realizado con el fin de ayudar a los
+                            centros veterinarios a llevar una bitacora de las mascotas
+                            de sus clientes frecuentes.
+                        </p>
+                        <a href="#!" class="btn-primary">Leer más</a>
+                    </div>
+                </div>
+                <div class="tab-item web-development">
+                    <div class="tab-content-left">
+                        <h1 class="tab-heading">ESCOMcalma</h1>
+                        <p class="paragraph">
+                            Es una plataforma web cuyo fin es facilitar la busqueda
+                            de material teórico y práctico para los alumnos de ESCOM
+                            que busquen estudiar para los examenes de tipo ETS.
+                        </p>
+                        <a href="#!" class="btn-primary">Leer más</a>
+                    </div>
+                    <div class="tab-content-right">
+                        <img src="images/ESCOMCalma_Logo-modified.png" alt="web development" class="tab-img" />
+                    </div>
+                </div>
+                <div class="tab-item ux-design">
+                    <div class="tab-content-left">
+                        <img src="images/xochilapia.png" alt="UI/UX Design" class="tab-img" />
+                    </div>
+                    <div class="tab-content-right">
+                        <h1 class="tab-heading">Xochilapia</h1>
+                        <p class="paragraph">
+                            Es un proyecto el cual emplea una página web que ayuda
+                            al personal que le da mantenimiento al lago de Xochimilco
+                            a vender la plaga que se encuentra en este sitio denominada como
+                            Tilapia y es dañina para los ajolotes.
+                        </p>
+                        <a href="#!" class="btn-primary">Leer más</a>
+                    </div>
+                </div>
+                <div class="tab-item app-development">
+                    <div class="tab-content-left">
+                        <h1 class="tab-heading">iFind</h1>
+                        <p class="paragraph">
+                            Es un prototipo de aplicación móvil que emplea el uso de
+                            sensores para localizar los objetos de uso diario y de fácil
+                            perdida como llaves, gafetes, etc.
+                        </p>
+                        <a href="#!" class="btn-primary">Leer más</a>
+                    </div>
+                    <div class="tab-content-right">
+                        <img src="images/iFind.png" alt="UI/UX Design" class="tab-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="projects.js"></script>
+    <script src="side.js"></script>
+</body>
+
+</html>

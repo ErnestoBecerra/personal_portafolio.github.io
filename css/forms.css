@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+    background: url(background/cielo_escom.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .contact-info{
+    color: #8a0404;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+section .contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+
+ section .contact__form{
+    max-width: 700px;
+    margin-right: 50PX;
+
+}
+
+
+section .contact-info, .contact__form{
+    flex: 1;
+}
+
+section .contact__form h2{
+    color: #8a0404;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+
+section .contact__form .text__box{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50%-10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+
+section .contact__form .text__box:first-child{
+    margin-right: 15px;
+}
+
+
+section .contact__form textarea{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+
+section .contact__form .send-btn{
+    float: left;
+    background: #2E94E3;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+}
+
+
+section .contact__form .send-btn:hover{
+    background: #0582E3;
+}
+
+@media screen and (max-width:950px){
+    .contact-section{
+        flex-direction: column;
+    }
+
+    .contact-info, .contact__form{
+        margin: 30px 50px;
+    }
+
+    .contact__form h2{
+        font-size: 30px;
+    }
+
+    .contact__form .text__box{
+        width: 100%;
+    }
+
+    
+}

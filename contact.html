@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/style_2.css">
+</head>
+
+<body>
+
+    <nav>
+        <button type="button" id="toggle-btn">
+            <i class="fa fa-bars"></i>
+        </button>
+        <span>Menú</span>
+        <ul class="sidebar__menu">
+            <li><a href="index.html"><i class="fa fa-home"></i>Inicio</a></li>
+            <li><a href="info.html"><i class="fa fa-suitcase"></i>Información</a></li>
+            <li><a href="hobbies.html"><i class="fa fa-user"></i>Hobbies</a></li>
+            <li><a href="cryptography.html"><i class="fa-sharp fa-solid fa-clock"></i>Cryptography</a></li>
+            <li><a href="projects.html"><i class="fa-sharp fa-solid fa-phone"></i>Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="contact-section">
+            <div class="contact-info">
+                <div><i class="fa-sharp fa-solid fa-map-location-dot"></i>Iztapalapa, Ciudad de México</div>
+                <div><i class="fa-sharp fa-solid fa-envelope"></i>ernesto.danie.sanchez@gmail.com</div>
+                <div><i class="fa-sharp fa-solid fa-phone"></i>+(52) 55-47-92-67-14</div>
+                <div><i class="fa-sharp fa-solid fa-clock"></i>Lun - Vie 8:00 AM a 4:00 PM</div>
+            </div>
+            <div class="contact__form">
+                <h2>¡Hablemos!</h2>
+                <form class="contact" action="" method="post">
+                    <input type="text" name="name" class="text__box" placeholder="Nombre.." required>
+                    <input type="email" name="email" class="text__box" placeholder="Correo.." required>
+                    <textarea type="text" name="message" placeholder="Mensaje.." required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<script src="side.js"></script>
+
+</html>
